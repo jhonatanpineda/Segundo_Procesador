@@ -1,0 +1,21 @@
+0  ba main
+1  nop
+2  mov 0, %o0               mult     	result = 0
+3  mov 0, %g1							i = 0
+4  cmp %g1, %i0
+5  bge fin
+6  nop
+7  mov %g1, %l0				for			
+8  mov %o0, %l1
+9  add %l0, 1, %g1
+10 add %l1, %i1, %o0
+11 cmp %g1, %i0
+12 bl for
+13 nop
+14 jmpl %o7, 0, %g0
+15 nop
+16 mov 8, %i0				main		a = 8
+17 mov 9, %i1							b = 9
+18 call mult
+19 nop
+20 mov %o0, %o2

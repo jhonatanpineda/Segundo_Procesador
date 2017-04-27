@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Pineda/Desktop/2017/arquitectura/Procesador2/Procesador2/tb_Win_Man_isim_beh.exe" -prj "C:/Users/Pineda/Desktop/2017/arquitectura/Procesador2/Procesador2/tb_Win_Man_beh.prj" "work.tb_Win_Man" 

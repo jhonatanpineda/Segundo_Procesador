@@ -1,0 +1,2 @@
+vhdl work "Win_Man.vhd"
+vhdl work "tb_Win_Man.vhd"
